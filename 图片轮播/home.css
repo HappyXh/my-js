@@ -1,0 +1,121 @@
+body{
+  text-align: center;
+
+}
+#img-flow{
+  width: 425px;
+  height: 318px;
+  position: absolute;
+  top: 0;
+  left: 400px;
+
+}
+#img-flow .arrow{
+  position: absolute;
+  background: url("news_all_b6796497.png") no-repeat 1000px 1000px;
+  width: 19px;
+  height: 36px;
+  left: 11px;
+  top: 115px;
+  cursor: pointer
+}
+#img-flow .pre-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 227px;
+  cursor: pointer 
+}
+#img-flow .next-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 227px;
+  cursor: pointer
+}
+#img-flow .pre-img .is-hover{
+  background-position:-40px 0 !important;
+}
+#img-flow .next-img .is-hover{
+  background-position:-61px 0 !important;
+}
+.img-viewer{
+  height: 260px;
+  width: 425px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative
+}
+.img-viewer-cell{
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.img-viewer-cell a{
+  display: inline-block;
+  height: 260px;
+  width: 425px;
+  outline: none
+}
+.img-viewer-cell img{
+  height: 260px;
+  width: 425px;
+}
+.img-bars{
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 8px 0 0 15px;
+  background-color: #191919;
+  height: 50px
+}
+.img-bars span{
+  position: relative;
+  text-align: left;
+  width: 78px;
+  display: inline-block
+}
+.img-bars span span{
+  position: absolute;
+  opacity: .45;
+  transition: opacity 500ms;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 42px;
+  cursor: pointer;
+  background: #000;
+}
+.img-bars span.cur-span span{
+  opacity: 0;
+  transition: opacity 500ms
+}
+.img-bars span.click-span img{
+  border: 1px solid #389cff
+}
+
+.img-bars img{
+  display: inline-block;
+  border: 1px solid #191919;
+  height: 40px;
+  width: 68px;
+  cursor: pointer
+}
+.img-bars-content{
+  position: absolute;
+  left: 0
+}
+.img-bars-wrapper{
+  width: 410px;
+  height: 45px;
+  overflow: hidden;
+  position: absolute
+}
+.hasarrow .arrow{
+  background-position:0 0 !important;
+}
+.hasarrow .next-img .arrow{
+  background-position:-21px 0 !important;
+}
